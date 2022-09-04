@@ -1340,28 +1340,28 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 700px;
+    min-height: 500px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 700px;
+    max-height: 500px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 455px;
+    min-height: 325px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 455px;
+    max-height: 325px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 385px;
+    min-height: 275px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 385px;
+    max-height: 275px;
     object-fit: contain;
   }
   .cid-tgdXMlsuLc .container .carousel-control {
