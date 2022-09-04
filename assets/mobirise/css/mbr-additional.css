@@ -1048,7 +1048,7 @@ a {
   }
 }
 .cid-tfVWG9mU75 {
-  background-image: url("../../../assets/images/hp2-2000x1359.jpg");
+  background-image: url("../../../assets/images/background-2.jpg");
 }
 .cid-tfVWG9mU75 .mbr-fallback-image.disabled {
   display: none;
@@ -1335,33 +1335,33 @@ a {
 }
 .cid-tgdXMlsuLc {
   padding-top: 0rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   background-color: #fafafa;
 }
 @media (min-width: 992px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 500px;
+    min-height: 1000px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 500px;
+    max-height: 1000px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 325px;
+    min-height: 650px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 325px;
+    max-height: 650px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 275px;
+    min-height: 550px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 275px;
+    max-height: 550px;
     object-fit: contain;
   }
   .cid-tgdXMlsuLc .container .carousel-control {
