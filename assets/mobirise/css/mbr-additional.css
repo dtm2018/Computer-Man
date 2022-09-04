@@ -1588,6 +1588,9 @@ a {
 .cid-tguQQ80mtC img,
 .cid-tguQQ80mtC .item-img {
   width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 .cid-tguQQ80mtC .item:focus,
 .cid-tguQQ80mtC span:focus {
@@ -1671,11 +1674,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 768px) {
-  .cid-tguQQ80mtC .embla__button {
-    display: none;
-  }
 }
 .cid-tguQQ80mtC .embla__button:disabled {
   cursor: default;
