@@ -748,11 +748,6 @@ a {
   display: flex;
   margin: auto;
 }
-@media (min-width: 992px) {
-  .cid-tfVWm70isR .container {
-    flex-wrap: nowrap;
-  }
-}
 .cid-tfVWm70isR .iconfont-wrapper {
   color: #000000 !important;
   font-size: 1.5rem;
@@ -818,11 +813,6 @@ a {
 }
 .cid-tfVWm70isR .navbar.collapsed.opened .dropdown-menu {
   top: 0;
-}
-@media (min-width: 992px) {
-  .cid-tfVWm70isR .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
-  }
 }
 .cid-tfVWm70isR .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
@@ -1348,28 +1338,28 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 600px;
+    min-height: 500px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 600px;
+    max-height: 500px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 390px;
+    min-height: 325px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 390px;
+    max-height: 325px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-tgdXMlsuLc .carousel {
-    min-height: 330px;
+    min-height: 275px;
   }
   .cid-tgdXMlsuLc .carousel img {
-    max-height: 330px;
+    max-height: 275px;
     object-fit: contain;
   }
   .cid-tgdXMlsuLc .container .carousel-control {
