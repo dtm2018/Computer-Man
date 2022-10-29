@@ -555,7 +555,27 @@
     window.scrollTo(window.scrollX, window.scrollY - 100);
 });
   </script>
+  
+  
+  
+ <script>
+  // The function actually applying the offset
+function offsetAnchor() {
+    if(location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 100);
+    }
+}
 
+// This will capture hash changes while on the page
+window.addEventListener("hashchange", offsetAnchor);
+
+// This is here so that when you enter the page with a hash,
+// it can provide the offset in that case too. Having a timeout
+// seems necessary to allow the browser to jump to the anchor first.
+window.setTimeout(offsetAnchor, 1); // The delay of 1 is arbitrary and may not always work right (although it did in my testing). 
+  </script>
+  
+  
   <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative; height: .02rem;"><a href="https://mobiri.se/" style="flex: 1 1; 
     height: .02rem;position: absolute;width: 100%;z-index: 1;">
     <img alt="" style="height: .02rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7"> &#8204;</p><a style="z-index:1" href="https://mobirise.com/web-page-maker.html"> </a></section>
