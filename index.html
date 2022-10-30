@@ -37,7 +37,7 @@
   
   
 </head>
-<body onload="wait1s()">
+<body onload="dtmWait1s()">
   
   <section data-bs-version="5.1" class="menu menu2 cid-tgvRbQ2n5S" once="menu" id="menu2-1g">
     
@@ -565,7 +565,7 @@
 
 <script>
   
-function sleep(milliseconds) {
+function dtmSleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
   do {
@@ -573,9 +573,9 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
    
-function wait1s() {
+function dtmWait1s() {
   //alert("Page is loaded");
-  sleep(2000);
+  dtmSleep(2000);
 }
                      
 </script>  
