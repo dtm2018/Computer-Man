@@ -559,6 +559,9 @@
   
   
  <script>
+   let win1 = document.getElementByName('body');\
+   win1.onload = function(){alert('windows has loaded'};
+   
   // The function actually applying the offset
 function offsetAnchor() {
     if(location.hash.length !== 0) {
@@ -574,6 +577,7 @@ function noneok() {
    // This will capture hash changes while on the page
 
    window.addEventListener("focus", noneok);
+   window.onload(
    //window.addEventListener("onfocus", noneok);
    //window.addEventListener("hashchange", offsetAnchor);
 
