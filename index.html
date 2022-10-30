@@ -37,7 +37,7 @@
   
   
 </head>
-<body onload="bodyLoaded()">
+<body XXXonload="bodyLoaded()">
   
   <section data-bs-version="5.1" class="menu menu2 cid-tgvRbQ2n5S" once="menu" id="menu2-1g">
     
@@ -559,29 +559,18 @@
   
   
  <script>
-//   let win1 = document.getElementByName('body');
-//   win1.onload = function(){alert('windows has loaded'};
-   
   // The function actually applying the offset
 function offsetAnchor() {
-    if(location.hash.length !== 0) {
-        window.scrollTo(window.scrollX, window.scrollY - 90);
-    }
+ //   if(location.hash.length !== 0) {
+ //       window.scrollTo(window.scrollX, window.scrollY - 90);
+ //   }
 }
 
-function noneok() { 
-  let x = 1;
-  alert('onfocus event handled');
-}
-   
- function bodyLoaded() {
-  alert('body onloaded');
- } 
                             
  // This will capture hash changes while on the page
 
    //window.addEventListener("onfocus", noneok);
-   //window.addEventListener("hashchange", offsetAnchor);
+   window.addEventListener("hashchange", offsetAnchor);
 
 // This is here so that when you enter the page with a hash,
 // it can provide the offset in that case too. Having a timeout
