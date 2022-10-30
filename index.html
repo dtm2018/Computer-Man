@@ -568,6 +568,7 @@
 
 <script>
   
+/*
 function dtmSleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -575,9 +576,19 @@ function dtmSleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
+*/
    
 function dtmWait1s() {
   //alert("Page is loaded");
+  
+  function dtmSleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+  
   dtmSleep(2000);
 }
                      
