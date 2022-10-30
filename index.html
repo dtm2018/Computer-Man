@@ -40,7 +40,7 @@
   
   
 </head>
-<body xonload="dtmWait1s()">
+<body onload="dtmWait1s()">
   
   <section data-bs-version="5.1" class="menu menu2 cid-tgvRbQ2n5S" once="menu" id="menu2-1g">
     
@@ -567,29 +567,15 @@
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/sociallikes/social-likes.js"></script>  <script src="assets/theme/js/script.js"></script>  
 
 <script>
-  
-/*
-function dtmSleep(milliseconds) {
-  const date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
-}
-*/
    
 function dtmWait1s() {
-  //alert("Page is loaded");
-  
-  function dtmSleep(milliseconds) {
+  let milliseconds = 0;
   const date = Date.now();
   let currentDate = null;
+  
   do {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
-}
-  
-  dtmSleep(2000);
 }
                      
 </script>  
