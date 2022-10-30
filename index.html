@@ -564,7 +564,12 @@ function offsetAnchor() {
 
 // This will capture hash changes while on the page
 window.addEventListener("hashchange", offsetAnchor);
-window.addEventListener("onfocus", alert(222));
+window.addEventListener("onfocus", () => {
+  // wait 1 sec
+  
+  window.setTimeout(,1000);
+  
+});
 // This is here so that when you enter the page with a hash,
 // it can provide the offset in that case too. Having a timeout
 // seems necessary to allow the browser to jump to the anchor first.
