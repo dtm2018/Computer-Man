@@ -557,20 +557,8 @@
   </script>
   
   
-  
- <script>
-  // The function actually applying the offset
-function offsetAnchor() {
- //   if(location.hash.length !== 0) {
-  //     window.scrollTo(window.scrollX, window.scrollY - 90);
-   // }
-  let s=2222;
-}
-
-function delay(time) {
-  return new Promise(resolve => setTimeout(resolve, time));
-}  
-   
+<script>
+     
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -579,20 +567,9 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 
-..console.log("Hello");
 sleep(2000);
-console.log("World!");
-                           
-// This will capture hash changes while on the page
-// window.addEventListener("hashchange", offsetAnchor);
-   window.addEventListener("load", gogo);
-
-// This is here so that when you enter the page with a hash,
-// it can provide the offset in that case too. Having a timeout
-// seems necessary to allow the browser to jump to the anchor first.
-//  window.setTimeout(offsetAnchor, 2000); // The delay of 1 is arbitrary and may not always work right (although it did in my testing). 
-
-  </script>
+alert('slept 2s')                           
+</script>
   
   
   <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative; height: .02rem;"><a href="https://mobiri.se/" style="flex: 1 1; 
