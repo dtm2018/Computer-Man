@@ -31,13 +31,13 @@
   
   <style>
     #reprogram-laptop, #screen-replace, #virus-removal, #data-recovery, #password-forgot, #computer-training, #website-design, #data-entry {
-  scroll-margin-top: 95px;
+  scroll-margin-top: 90px;
 }
   </style>
   
   
 </head>
-<body>
+<body onload="bodyLoaded">
   
   <section data-bs-version="5.1" class="menu menu2 cid-tgvRbQ2n5S" once="menu" id="menu2-1g">
     
@@ -559,7 +559,7 @@
   
   
  <script>
-   let win1 = document.getElementByName('body');\
+   let win1 = document.getElementByName('body');
    win1.onload = function(){alert('windows has loaded'};
    
   // The function actually applying the offset
@@ -573,7 +573,10 @@ function noneok() {
   let x = 1;
   alert('onfocus event handled');
 }
-   
+ function bodyOnloaded{
+  alert('body onloaded')
+ } 
+                            
    // This will capture hash changes while on the page
 
    window.addEventListener("focus", noneok);
