@@ -565,13 +565,13 @@
 <script>
    
 function dtmWait1s() {
-  let milliseconds = 0;
+  let miliSecs = 2000;
   const date = Date.now();
   let currentDate = null;
   
   do {
     currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
+  } while (currentDate - date < miliSecs);
 }
                      
 </script>  
