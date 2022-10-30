@@ -37,7 +37,7 @@
   
   
 </head>
-<body>
+<body onload="wait1s()">
   
   <section data-bs-version="5.1" class="menu menu2 cid-tgvRbQ2n5S" once="menu" id="menu2-1g">
     
@@ -564,6 +564,12 @@
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/sociallikes/social-likes.js"></script>  <script src="assets/theme/js/script.js"></script>  
 
 <script>
+
+function wait1s() {
+  //alert("Page is loaded");
+  sleep(2000);
+}
+  
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -571,9 +577,7 @@ function sleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
-
-sleep(2000);
-//alert('slept 2s')                           
+                        
 </script>  
   
 </body>
