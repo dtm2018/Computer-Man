@@ -571,21 +571,17 @@ function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
 }  
    
-function gogo() {
-  //delay(2222).then(() => {     alert(123); });                // console.log('ran after 1 second1 passed'));
-    for (let x=0; x < 35000000; x++) {
-      let a,b,c,d,e,f 
-      a=x + 1
-      b=x + 2
-      c= 33
-      d= 44
-      e= 55
-      f = a+b+c+d+e-x
-    }
-  alert('0 ...35 mil');
-  }  
-  //alert('offset after 2secs');
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
 
+..console.log("Hello");
+sleep(2000);
+console.log("World!");
                            
 // This will capture hash changes while on the page
 // window.addEventListener("hashchange", offsetAnchor);
