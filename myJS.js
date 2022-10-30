@@ -1,9 +1,7 @@
 function dtmWait1s() {
   const date = Date.now();
-  let miliSecs = 4000;
+  let miliSecs = 2000;
   let currentDate = 0;
-  
-  alert('dana');
   
   do {
     currentDate = Date.now();
