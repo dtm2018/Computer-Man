@@ -569,16 +569,19 @@ function offsetAnchor() {
 
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
-}   
-delay(2222).then(() => {
-  alert(2222);
-});                // console.log('ran after 1 second1 passed'));
-  
+}  
+   
+function gogo() {
+  delay(2222).then(() => {
+    alert(2222);
+  });                // console.log('ran after 1 second1 passed'));
+}  
   //alert('offset after 2secs');
 
                            
 // This will capture hash changes while on the page
-window.addEventListener("hashchange", offsetAnchor);
+// window.addEventListener("hashchange", offsetAnchor);
+   window.addEventListener("load", gogo);
 
 // This is here so that when you enter the page with a hash,
 // it can provide the offset in that case too. Having a timeout
