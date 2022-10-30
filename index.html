@@ -562,16 +562,13 @@ function offsetAnchor() {
     }
 }
 
-function none() {}
+function none() { 
+  let x = 1;
+}
    
    // This will capture hash changes while on the page
 
-   window.addEventListener("onfocus", () => {
-  // wait 1 sec
-  // window.setTimeout(none,1000);
-  
-  alert(33)
-});
+   window.addEventListener("onfocus", none);
    
    window.addEventListener("hashchange", offsetAnchor);
 
