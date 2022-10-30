@@ -1,1 +1,1 @@
-# computr-Man
+# computer-Man
