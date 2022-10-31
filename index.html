@@ -572,7 +572,7 @@
   } while (currentDate - date < miliSecs);
 }
         
-function dtmWait1s() {
+function zzdtmWait1s() {
   var date = new Date();
   var curDate = null;
 
@@ -580,9 +580,20 @@ function dtmWait1s() {
   curDate = new Date(); 
   console.log(curDate);
   } while(curDate-date < 2000);
-
   //alert(curDate);
 }
+      
+//console.log('pre');
+var dtmWait1s = (ms) => {
+    const start = Date.now();
+    let now = start;
+    while (now - start < ms) {
+      now = Date.now();
+    }
+}
+wait(1999);
+//console.log('post');
+      
   </script> 
   
   <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative; height: .02rem;"><a href="https://mobiri.se/" style="flex: 1 1; 
