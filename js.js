@@ -5,5 +5,5 @@ var sleep1 = (ms) => {
       now = Date.now();
     }
 }
-sleep1(3000);
-alert('3 secs');
+sleep1(1777);
+//alert('3 secs');
