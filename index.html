@@ -574,7 +574,7 @@
 
   
     <script >
-  function dtmWait1s() {
+  function XXdtmWait1s() {
     const date = Date.now();
     let miliSecs = 2000;
     let currentDate = 0;
@@ -583,6 +583,14 @@
     currentDate = Date.now();
   } while (currentDate - date < miliSecs);
 }
+        
+  function dtmWait1s() {
+    var date = new Date();
+    var curDate = null;
+
+do { curDate = new Date(); }
+    while(curDate-date < 2000);
+        
   </script> 
   
   <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative; height: .02rem;"><a href="https://mobiri.se/" style="flex: 1 1; 
