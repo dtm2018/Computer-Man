@@ -45,7 +45,7 @@
   </style>
   
 </head>
-<body onload="dtmWait1s()">
+<body onload="sleep1()">
   <a href="#b1">b1</a>
   <a href="#b3">b3</a>
   <a href="#b5">b5</a>
@@ -584,14 +584,14 @@ function zzdtmWait1s() {
 }
       
 //console.log('pre');
-var dtmWait1s = (ms) => {
+var sleep1 = (ms) => {
     const start = Date.now();
     let now = start;
     while (now - start < ms) {
       now = Date.now();
     }
 }
-wait(1999);
+sleep1(1999);
 //console.log('post');
       
   </script> 
