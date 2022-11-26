@@ -5,4 +5,4 @@ var sleepSyn = (ms) => {
       now = Date.now();
     }
 }
-sleepSyn(700);
+sleepSyn(500);
