@@ -1050,7 +1050,8 @@ a {
 .cid-tfVWG9mU75 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background-5-2000x1359.jpg");
+  XXbackground-image: url("../../../assets/images/background-5-2000x1359.jpg");
+  background-image: url("../../../assets/images/bg-circuit-board.jpg");
 }
 .cid-tfVWG9mU75 .mbr-fallback-image.disabled {
   display: none;
