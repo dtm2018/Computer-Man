@@ -42,16 +42,17 @@
     
     .cntnr {
       display: flex;
-      justify-content: flex-start;
-      align-content: center;
+      justify-content: center;
+      flex-direction: row;
+      align-content: flex-start;
     }
     
    .logo {
      width: 276px; 
      height: 282px;
-     position: absolute;
-     top: 25px;
-     left: auto;
+     xposition: absolute;
+     xtop: 25px;
+     xleft: auto;
      background-image: url('https://dtm2018.github.io/Computer-Man/assets/images/manlogo.png');
      z-index: 9999;
     }
@@ -96,11 +97,6 @@
     </nav>
 </section>
 
-  
-  <div class="cntnr">
-    <div class='logo'> </div>
-  </div>
-  
 <section data-bs-version="5.1" class="header6 cid-tfVWG9mU75 mbr-parallax-background" id="header6-1">
 
     <div class="align-center container">
@@ -115,7 +111,13 @@
             </div>
         </div>
     </div>
-</section>
+
+    <div class="cntnr">
+    <div class='logo'> </div>
+  </div>
+  
+  
+  </section>
 
 <section data-bs-version="5.1" class="image3 cid-tgdBRNjTox" id="image3-r" style="padding-top:0rem">
     
